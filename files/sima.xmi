@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sima:SIMAWorkspace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:riflex="http://marintek.no/schemas/sima/riflex/r36" xmlns:sima="http://marintek.no/schemas/sima/base/r21" xmi:id="_yqfZkDOLEeqHQq0DClnocA" productId="0.0.0">
+  <childFolders xmi:id="_NVmcQEi_Eeq_IPGUApIjaQ" name="folder">
+    <childTasks xsi:type="riflex:RIFLEXTask" xmi:id="_OAtOwEi_Eeq_IPGUApIjaQ" name="RIFLEXTask">
+      <initialCondition xmi:id="_OAtOwUi_Eeq_IPGUApIjaQ" name="Initial"/>
+      <model xsi:type="riflex:RIFLEXModel" xmi:id="_OAtOwki_Eeq_IPGUApIjaQ">
+        <location xsi:type="riflex:RIFLEXLocation" xmi:id="_OAtOw0i_Eeq_IPGUApIjaQ" name="location">
+          <initialViewpoint xmi:id="_OAtOxEi_Eeq_IPGUApIjaQ">
+            <eye xmi:id="_OAtOxUi_Eeq_IPGUApIjaQ" x="-1.0"/>
+            <dir xmi:id="_OAtOxki_Eeq_IPGUApIjaQ" x="1.0"/>
+            <up xmi:id="_OAtOx0i_Eeq_IPGUApIjaQ" z="1.0"/>
+          </initialViewpoint>
+          <initialRotationpoint xmi:id="_OAtOyEi_Eeq_IPGUApIjaQ"/>
+          <seaSurface xmi:id="_OAtOyUi_Eeq_IPGUApIjaQ" sizeX="1000.0" sizeY="1000.0" z="0.0">
+            <color xmi:id="_OAtOyki_Eeq_IPGUApIjaQ" red="0.0" blue="0.7"/>
+          </seaSurface>
+          <flatBottom xmi:id="_OAtOy0i_Eeq_IPGUApIjaQ" sizeX="1000.0" sizeY="1000.0" z="-1000.0">
+            <color xmi:id="_OAtOzEi_Eeq_IPGUApIjaQ" red="0.7" green="0.7" blue="0.7"/>
+          </flatBottom>
+          <physicalConstants xmi:id="_OAtOzUi_Eeq_IPGUApIjaQ"/>
+        </location>
+        <sIMOStaticCalculationParameters xmi:id="_OAtOzki_Eeq_IPGUApIjaQ">
+          <equilibriumGridDefinition xmi:id="_OAtOz0i_Eeq_IPGUApIjaQ">
+            <roll xmi:id="_OAtO0Ei_Eeq_IPGUApIjaQ"/>
+            <pitch xmi:id="_OAtO0Ui_Eeq_IPGUApIjaQ"/>
+          </equilibriumGridDefinition>
+        </sIMOStaticCalculationParameters>
+        <sIMODynamicCalculationParameters xmi:id="_OAtO0ki_Eeq_IPGUApIjaQ" timeStep="0.1">
+          <externalControlSetup xmi:id="_OAtO00i_Eeq_IPGUApIjaQ"/>
+          <multiEnvironmentSetup xmi:id="_OAtO1Ei_Eeq_IPGUApIjaQ"/>
+          <waveTimeSeries xmi:id="_OAtO1Ui_Eeq_IPGUApIjaQ"/>
+        </sIMODynamicCalculationParameters>
+        <slenderSystem xmi:id="_OAtO1ki_Eeq_IPGUApIjaQ"/>
+        <riflexStaticCalculationParameters xmi:id="_OAtO10i_Eeq_IPGUApIjaQ">
+          <loadTypeItems xmi:id="_OAtO2Ei_Eeq_IPGUApIjaQ"/>
+          <loadTypeItems xmi:id="_OAtO2Ui_Eeq_IPGUApIjaQ" loadType="Specified Displacements"/>
+          <parameterVariation xmi:id="_OAtO2ki_Eeq_IPGUApIjaQ">
+            <offsetVariation xmi:id="_OAtO20i_Eeq_IPGUApIjaQ"/>
+            <currentVariation xmi:id="_OAtO3Ei_Eeq_IPGUApIjaQ"/>
+            <boundaryChangeGroup xmi:id="_OAtO3Ui_Eeq_IPGUApIjaQ"/>
+          </parameterVariation>
+        </riflexStaticCalculationParameters>
+        <riflexDynamicCalculationParameters xmi:id="_OAtO3ki_Eeq_IPGUApIjaQ">
+          <irregularTimeSeries xmi:id="_OAtO30i_Eeq_IPGUApIjaQ"/>
+          <irregularResponseAnalysis xmi:id="_OAtO4Ei_Eeq_IPGUApIjaQ">
+            <irregularWaveProcedure xmi:id="_OAtO4Ui_Eeq_IPGUApIjaQ"/>
+            <waveTimeSeries xmi:id="_OAtO4ki_Eeq_IPGUApIjaQ"/>
+          </irregularResponseAnalysis>
+          <timeDomainProcedure xmi:id="_OAtO40i_Eeq_IPGUApIjaQ">
+            <nonLinearForceModel xmi:id="_OAtO5Ei_Eeq_IPGUApIjaQ">
+              <slugForceSpecification xmi:id="_OAtO5Ui_Eeq_IPGUApIjaQ"/>
+            </nonLinearForceModel>
+            <nonLinearIntegrationProcedure xmi:id="_OAtO5ki_Eeq_IPGUApIjaQ"/>
+            <dynamicNodalForces xmi:id="_OAtO50i_Eeq_IPGUApIjaQ"/>
+            <dynamicCurrentVariation xmi:id="_OAtO6Ei_Eeq_IPGUApIjaQ"/>
+            <rigidMoonpoolColumns xmi:id="_OAtO6Ui_Eeq_IPGUApIjaQ"/>
+          </timeDomainProcedure>
+          <envelopeCurveSpecification xmi:id="_OAtO6ki_Eeq_IPGUApIjaQ"/>
+          <displacementResponseStorage xmi:id="_OAtO60i_Eeq_IPGUApIjaQ"/>
+          <forceResponseStorage xmi:id="_OAtO7Ei_Eeq_IPGUApIjaQ"/>
+          <sumForceResponseStorage xmi:id="_OAtO7Ui_Eeq_IPGUApIjaQ"/>
+          <curvatureResponseStorage xmi:id="_OAtO7ki_Eeq_IPGUApIjaQ"/>
+          <stressStorage xmi:id="_OAtO70i_Eeq_IPGUApIjaQ"/>
+          <turbineResponseStorage xmi:id="_OAtO8Ei_Eeq_IPGUApIjaQ"/>
+          <turbineBladeResponseStorage xmi:id="_OAtO8Ui_Eeq_IPGUApIjaQ"/>
+          <dynamicWindChange xmi:id="_OAtO8ki_Eeq_IPGUApIjaQ"/>
+          <windTurbineShutdown xmi:id="_OAtO80i_Eeq_IPGUApIjaQ"/>
+          <bladePitchFault xmi:id="_OAtO9Ei_Eeq_IPGUApIjaQ"/>
+          <visualisationResponses xmi:id="_OAtO9Ui_Eeq_IPGUApIjaQ"/>
+          <regularWaveAnalysis xmi:id="_OAtO9ki_Eeq_IPGUApIjaQ"/>
+          <regularWaveLoading xmi:id="_OAtO90i_Eeq_IPGUApIjaQ"/>
+        </riflexDynamicCalculationParameters>
+        <coupledDynamicCalculationParameters xmi:id="_OAtO-Ei_Eeq_IPGUApIjaQ"/>
+      </model>
+    </childTasks>
+  </childFolders>
+</sima:SIMAWorkspace>
+<!-- SIMA CHECKSUM START
+8dab0e7afe75ce44522f6941cd6c6134fd3b96cd
+SIMA CHECKSUM END -->
